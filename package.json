@@ -2,13 +2,15 @@
   "version": "1.0.4",
   "name": "bunrest",
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "nodemon": "^2.0.20"
   },
   "dependencies": {
     "hono": "^2.0.0"
   },
   "scripts": {
-    "start": "bun run src/index.ts"
+    "start": "bun run src/index.ts",
+    "devo": "bun run nodemon"
   },
   "module": "src/index.js"
 }
